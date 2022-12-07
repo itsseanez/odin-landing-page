@@ -1,9 +1,20 @@
+.section1 {
+    background-color: #1F2937;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
 .section1 > .top-section {
     display: flex;
 }
 .section1 > .bottom-section {
     display: flex;
     justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 40px;
+}
+.description {
+    padding-right: 40px;
 }
 .links {
     justify-content: center;
@@ -12,7 +23,16 @@
 .item {
     padding:4px;
 }
+.heading {
+    color: #f9faf8;
+}
 .item.heading {
     flex: 1;
     text-align: center;
+}
+.subtext {
+    color: #e5e7eb;
+}
+.button {
+    background-color: #3882f6;
 }
