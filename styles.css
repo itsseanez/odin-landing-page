@@ -3,25 +3,24 @@
     padding-top:20px;
     padding-bottom: 20px;
 }
-.section1 > .top-section {
+.top-section {
     display: flex;
+    justify-content: center;
 }
-.section1 > .bottom-section {
+.bottom-section {
     display: flex;
     justify-content: center;
     padding-left: 200px;
     padding-right: 200px;
     margin: 40px;
-}
-.description {
-    padding-right: 40px;
+    gap: 32px;
 }
 .links {
     justify-content: center;
     padding-right: 200px;
 }
 .item {
-    padding:4px;
+    padding:8px;
 }
 .heading {
     color: #f9faf8;
@@ -35,4 +34,16 @@
 }
 .button {
     background-color: #3882f6;
+}
+.image {
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+    height: 120px;
+    width: 120px;
+}
+.image-text {
+    width: 120px;
+}
+.vertical-container {
+    flex-direction: column;
 }
