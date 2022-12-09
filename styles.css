@@ -1,4 +1,4 @@
-.section1 {
+.darkblue-section {
     background-color: #1F2937;
     padding-top:20px;
     padding-bottom: 20px;
@@ -10,17 +10,34 @@
     padding-left: 30%;
     padding-right: 30%;
 }
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
 .top-section {
     display: flex;
     justify-content: center;
 }
-.bottom-section {
+.dual-container {
     display: flex;
     justify-content: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
     margin: 40px;
     gap: 32px;
+}
+.block {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.button {
+    margin-top: 58px;
+    border: 1px solid white;
+}
+.buttons {
+    border-radius: 15%;
 }
 .links {
     justify-content: center;
@@ -47,7 +64,7 @@
     color: #1F2937;
     text-align: right;
 }
-.button {
+.blue-background {
     background-color: #3882f6;
 }
 .image {
@@ -65,4 +82,9 @@
 }
 .quote {
     font-weight: 300;
+}
+.foot {
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: -8px;
 }
